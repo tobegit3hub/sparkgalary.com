@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +10,7 @@
   <meta name="keywords" content="spark galary">
   <meta name="author" content="tobe">
 
+  <!-- Title -->
   <title>Spark Galary</title>
 
   <!-- CSS -->
@@ -30,76 +30,207 @@
 
 </head>
 
-
 <body>
-
-    <!-- Nav bar -->
-  <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
   <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#" class="navbar-brand">Spark Galary</a>
+
+  <!-- Header -->
+  <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+    <div class="container">
+
+      <!-- Title -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Spark Galary</a>
+      </div>
+
+      <!-- Nav bar -->
+      <nav class="collapse navbar-collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#slider">商业摄影</a>
+          </li>
+          <li>
+            <a href="#service">特色服务</a>
+          </li>
+          <li>
+            <a href="#photo">作品展示</a>
+          </li>
+          <li>
+            <a href="#studio">摄影工作室</a>
+          </li>
+          <li>
+            <a href="#client">客户案例</a>
+          </li>
+          <li>
+            <a href="#contact">联系我们</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">微信</a></li>
+          <li><a href="#">微博</a></li>
+          <li><a href="#">淘宝</a></li>
+        </ul>
+      </nav>
+
+    </div> <!-- End of container -->
+  </header>
+
+  <!-- 一大页Galary图片展示公司信息，最新活动等 -->
+  <div id='slider' class='swipe'>
+    <div class='swipe-wrap'>
+      <div><img src="./image/introduction1.jpg" width="100%"></img></div>
+      <div><img src="./image/introduction2.jpg" width="100%"></img></div>
+      <div><img src="./image/introduction3.jpg" width="100%"></img></div>
     </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="#">商业摄影</a>
-        </li>
-        <li>
-          <a href="#">作品展示</a>
-        </li>
-        <li>
-          <a href="#">摄影工作室</a>
-        </li>
-        <li>
-          <a href="#">特色服务</a>
-        </li>
-        <li>
-          <a href="#">合作伙伴</a>
-        </li>
-        <li>
-          <a href="#">联系我们</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">微信</a></li>
-        <li><a href="#">微博</a></li>
-      </ul>
-    </nav>
   </div>
-</header>
 
-  <!-- -->
+  <br/><br/>
 
-  <!-- 优惠活动 -->
+  <!-- 一大页特色服务 -->
+  <section id="service" class="xxx">
+    <div class="container">
 
+      <!-- 总体服务描述 -->
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>互联网摄影服务</h1>
+          <h3>Spark Galary(闪耀工作室)为传统摄影行业提供互联网解特色服务</h3>
+        </div>
+      </div> <!-- End of row -->
 
+      <br/><br/>
 
-    <!-- Page content of course! -->
-    <main class="bs-docs-masthead" id="content" role="main">
+      <!-- 具体特色服务 -->
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <figure>
+            <img class="img-services" src="image/flag.png" alt="">
+          </figure>
+          <h4>一站式服务</h4>
+          <p>从商品试拍、场景摆设、模特筛选、摄影流程到后期处理，一站式解决，照片通过客户指定方式发送安全可靠！</p>
+        </div>
 
-</main>
+        <div class="col-md-4 text-center">
+          <figure>
+            <img class="img-services" src="image/search.png" alt="">
+          </figure>
+          <h4>个性化服务</h4>
+          <p>贯彻互联网专注、极致、口碑、快的思想，为每个用户特供独一无二个性化服务，直到超出每个用户的心理预期！</p>
+        </div>
 
+        <div class="col-md-4 text-center">
+          <figure>
+            <img class="img-services img-margin" src="image/world-map.png" alt="">
+          </figure>
+          <h4>水印服务</h4>
+          <p>摄影所得照片归属客户所有，提供任意的后期功能功能，免费为客户照片打专属水印，保护客户应有的权益！<p>
+        </div>
+      </div> <!-- End of row -->
 
+    </div> <!-- End of container -->
+  </section>
 
-    <!-- Footer -->
-<footer class="footer" role="contentinfo">
+  <br/><br/>
+
+  <!-- 一大页作品展示 -->
+  <section id="photo">
+
+    <!-- 作品描述 -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>累计超过1000G摄影作品</h1>
+        <h3>客户作品覆盖服装饰品、婚纱礼服、餐厅饮食等各个行业</h3>
+      </div>
+    </div> <!-- End of row -->
+
+    <br/>
+
+    <!-- 作品照片 -->
+    <img src="./image/image2.jpg" width="100%">
+
+    <img src="./image/image1.jpg" width="100%">
+
+  </section>
+
+  <br/>
+
+  <!-- 一大页摄影工作室 -->
+  <section id="studio">
+
+    <!-- 工作室描述 -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>广州专用摄影室</h1>
+        <h3>坐落广州天河区五山绿景路室内摄影棚</h3>
+      </div>
+    </div> <!-- End of row -->
+
+    <br/>
+
+    <!-- Image of place -->
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./image/sheyingpeng1.jpg" width="100%">
+      </div>
+
+      <div class="col-md-6">
+        <img src="./image/sheyingpeng2.jpg" width="100%">
+      </div>
+    </div> <!-- End of row -->
+
+    <br/>
+
+    <!-- Image of camera -->
+    <div class="row">
+      <img src="./image/camera.jpg" width="100%">
+    </div>
+
+  </section>
+
+  <br/><br/>
+
+  <!-- 客户案例 -->
+  <section id="client">
+    <!-- 客户案例描述 -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>客户案例</h1>
+        <h3>超过15家合作企业与300位合作模特</h3>
+      </div>
+    </div> <!-- End of row -->
+
+    <br/>
+
+    <!-- Image of camera -->
+    <div class="row">
+      <img src="./image/client.jpg" width="100%">
+    </div>
+
+    <!-- 优惠活动 -->
+
+  </section>
+
+  <br/><br/>
+
+  <hr>
+
+  <br/>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo" id="contact">
   <div class="container">
 
     <div class="row">
 
-
-
-
       <!-- Footer 1 -->
       <div class="col-md-4 col-footer">
         <section class="text-center">
-          <p>摄影地点</p>
+          <h4>摄影地点</h4>
         </section>
 
         <section>
@@ -116,7 +247,7 @@
       <!-- Footer 1 -->
       <div class="col-md-4 col-footer col-padding">
         <section class="text-center">
-          <p>联系方式</p>
+          <h4>联系方式</h4>
         </section>
 
         <ul class="list-group">
@@ -130,7 +261,7 @@
       <!-- Footer 1 -->
       <div class="col-md-4 col-footer">
         <section class="text-center">
-          <p>承诺满意</p>
+          <h4>承诺满意</h4>
         </section>
 
         <section>
@@ -143,10 +274,12 @@
   </div> <!-- /.container -->
 </footer>
 
+</div> <!-- End of container -->
 
   <!-- JS -->
   <script src="./bower_components/jquery/dist/jquery.min.js"></script>
   <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./bower_components/swipe/swipe.js"></script>
   <script src="./js/style.js"></script>
 
 </body>

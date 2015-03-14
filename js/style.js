@@ -1,4 +1,5 @@
 
+// Swipe JS
 window.mySwipe = new Swipe(document.getElementById('slider'), {
   startSlide: 2,
   speed: 400,

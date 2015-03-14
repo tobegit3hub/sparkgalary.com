@@ -1,3 +1,4 @@
+// Basic CSS
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -23,6 +24,7 @@ summary {
   display: block;
 }
 
+// Swipe CSS
 .swipe {
   overflow: hidden;
   visibility: hidden;
@@ -36,4 +38,10 @@ summary {
   float:left;
   width:100%;
   position: relative;
+}
+
+// Custom CSS
+.xxx {
+  background-color:#00ff00;
+  font-size: 250%;
 }
